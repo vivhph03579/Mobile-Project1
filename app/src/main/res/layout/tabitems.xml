@@ -1,0 +1,55 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="0dip" android:layout_gravity="top"
+    >
+    <TableRow>
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:background="@drawable/ice_blended5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:gravity="left"
+            />
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            >
+            <TableRow>
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1" android:layout_gravity="left|center_vertical"
+                    android:textSize="25dp"
+                    android:text="Name item asdasd"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#25252d"
+                    android:layout_span="1"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Coast item"
+                    android:id="@+id/text1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="right|center_vertical"
+                    android:textSize="16dp"
+                    android:textColor="#fc4e5b"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="4dip"
+                    android:gravity="left"/>
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+</TableLayout>

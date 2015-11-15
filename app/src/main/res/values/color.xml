@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navdrawerbg">#fff</color>
+    <color name="menu_bg">#FFFFFF</color>
+    <color name="text_color">#222222</color>
+</resources>
